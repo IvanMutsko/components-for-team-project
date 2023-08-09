@@ -1,19 +1,13 @@
-import { RegisterForm } from "./RegisterForm/RegisterForm";
+import SignUpForm from "./SignUpForm/SignUpForm";
+import LogInForm from "./LogInForm/LogInForm";
 
 function App() {
   return (
-    <div>
-      <RegisterForm
-        option={"register"}
-        title={"Registration form"}
-        buttonName={"Confirm"}
-      />
-      <RegisterForm
-        option={"login"}
-        title={"LogIn form"}
-        buttonName={"Confirm"}
-      />
-    </div>
+    <>
+      <SignUpForm />
+      <hr />
+      <LogInForm />
+    </>
   );
 }
 
